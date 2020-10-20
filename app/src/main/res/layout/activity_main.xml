@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:padding="10dp">
+
+
+    <Button
+        android:id="@+id/butShowTost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/showtost" />
+
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="263dp"
+        android:text="@string/next" />
+
+    <EditText
+        android:id="@+id/etUserMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:hint="@string/enter_your_message"/>
+
+    <Button
+        android:id="@+id/btnShareToWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="171dp"
+        android:text="Share to web" />
+
+    <Button
+        android:id="@+id/btnrecyview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginBottom="75dp"
+        android:text="Recy View" />
+
+</RelativeLayout>
